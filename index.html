@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>Bootstrap HTML5 Soundboard</title>
+	<title>Mikýř Soundboard</title>
 	<meta name="description" content="An HTML 5 Soundboard powered by Bootstrap.">
 	<meta name="author" content="sk33lz">
 
@@ -32,7 +32,13 @@
   </head>
 
   <body>
-    <a href="https://github.com/sk33lz/bootstrap-html5-soundboard"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 1031;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+<style>
+body {
+  background-image: url('https://mikyr2038.cz/images/bg.jpg');
+}
+</style>
+
+    <a href="https://github.com/sleep-walker/mikyr-board"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 1031;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -41,7 +47,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Bootstrap HTML 5 Soundboard</a>
+          <a class="brand" href="#">Mikýř Board</a>
           <div class="nav-collapse">
             <ul class="nav">
               <!-- <li class="active"><a href="#">Home</a></li>
@@ -52,40 +58,78 @@
         </div>
       </div>
     </div>
-
+    <img src="https://mikyr2038.cz/images/logo.png">
     <div class="container">
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h1>Flash is Dead!</h1>
-		<h2>Long Live HTML5 Soundboards!</h2>
-        <p>The Bootstrap HTML5 Soundboard is an HTML5 Soundboard proof of concept. It doesn't require Flash and runs on modern web technologies like HTML5, jQuery, and CSS3. It is built on top of <a href="http://getbootstrap.com/" title="Bootstrap framework">Boostrap</a>, so it should run on any modern web browser and any mobile devices out of the box.</p>
-		<p>Click on an image to play the audio clip compatible with your device.</p>
-        <p><a href="https://github.com/sk33lz/bootstrap-html5-soundboard/wiki" class="btn btn-primary btn-large" title="Learn More about the Bootstrap HTML5 Soundboard">Learn more &raquo;</a></p>
-      </div>
-	</div> <!-- /container -->
+      <!-- <\!-- Main hero unit for a primary marketing message or call to action -\-> -->
+      <!-- <div class="hero-unit"> -->
+      <!--   <h1>Flash is Dead!</h1> -->
+      <!--   	<h2>Long Live HTML5 Soundboards!</h2> -->
+      <!--   <p>The Bootstrap HTML5 Soundboard is an HTML5 Soundboard proof of concept. It doesn't require Flash and runs on modern web technologies like HTML5, jQuery, and CSS3. It is built on top of <a href="http://getbootstrap.com/" title="Bootstrap framework">Boostrap</a>, so it should run on any modern web browser and any mobile devices out of the box.</p> -->
+      <!--   	<p>Click on an image to play the audio clip compatible with your device.</p> -->
+      <!--   <p><a href="https://github.com/sk33lz/bootstrap-html5-soundboard/wiki" class="btn btn-primary btn-large" title="Learn More about the Bootstrap HTML5 Soundboard">Learn more &raquo;</a></p> -->
+      <!-- </div> -->
+      <!--   </div> <\!-- /container -\-> -->
 	
 	<div class="container">
 		<div class="player">
 			<section>
-				<audio class="chewbacca" title="Chewbacca Audio Clip">
-				<source src="audio/chewbacca.mp3" />
-				<source src="audio/chewbacca.ogg" />
-				<source src="audio/chewbacca.m4a" />
+				<audio class="wau" title="Waaau">
+				<source src="https://mikyr2038.cz/sounds/Waaau.mp3" />
 			</audio>
-			<audio class="angry" title="Don't Drive Angry Clip">
-				<source src="audio/angry.mp3" />
-				<source src="audio/angry.ogg" />
-				<source src="audio/angry.wav" />
+			<audio class="hnev" title="Hněv Jakuba Smršína">
+				<source src="https://mikyr2038.cz/sounds/Hne%CC%8Cv%20Jakuba%20Smrs%CC%8Ci%CC%81na.mp3" />
 			</audio>
-			<audio class="luck" title="No Such Thing as Luck Clip">
-				<source src="audio/luck.mp3" />
-				<source src="audio/luck.wav" />
+			<audio class="creativite" title="La Creativité">
+				<source src="https://mikyr2038.cz/sounds/La_Creativite.mp3" />
 			</audio>
-			<audio class="raven" title="Great Odin's Raven! Clip">
-				<source src="audio/raven.mp3" />
-				<source src="audio/raven.ogg" />
-				<source src="audio/raven.wav" />
+			<audio class="pohorseni" title="Pohoršení">
+				<source src="https://mikyr2038.cz/sounds/Pohor%C5%A1en%C3%AD.wav" />
 			</audio>
+			<audio class="mindblown" title="Mindblown">
+				<source src="https://mikyr2038.cz/sounds/Mindblown.mp3" />
+			</audio>
+			<audio class="magnifique" title="Magnifique">
+				<source src="https://mikyr2038.cz/sounds/Magnifique.mp3" />
+			</audio>
+			<audio class="wilhelm" title="Wilhelm scream">
+				<source src="https://mikyr2038.cz/sounds/Wilhelm%20scream.mp3" />
+			</audio>
+                        <audio class="air-horn-2" title="Air Horn 2">
+                        	<source src="https://mikyr2038.cz/sounds/Air%20Horn%202.mp3" />
+                        </audio>
+                        <audio class="air-horn-3" title="Air Horn 3">
+                        	<source src="https://mikyr2038.cz/sounds/Air%20Horn%203.mp3" />
+                        </audio>
+                        <audio class="akorat-ze-vubec" title="Akorát že vůbec">
+                        	<source src="https://mikyr2038.cz/sounds/Akora%CC%81t%20ze%20vu%CC%8Abec.mp3" />
+                        </audio>
+                        <audio class="audiovizualni-show" title="Audiovizuální show">
+                        	<source src="https://mikyr2038.cz/sounds/Audiovizua%CC%81lni%CC%81%20show.mp3" />
+                        </audio>
+                        <audio class="apetit" title="Bon Apetit">
+                        	<source src="https://mikyr2038.cz/sounds/bon%20apetit.mp3" />
+                        </audio>
+                        <audio class="dav" title="Dav oslavuje">
+                        	<source src="https://mikyr2038.cz/sounds/Dav%20oslavuje.wav" />
+                        </audio>
+                        <audio class="eksn" title="Ekšn man!">
+                        	<source src="https://mikyr2038.cz/sounds/Ek%C5%A1n%2C%20man%21.mp3" />
+                        </audio>
+                        <audio class="cekal" title="Kdo by to byl čekal">
+                        	<source src="https://mikyr2038.cz/sounds/Kdo%20by%20to%20c%CC%8Cekal.mp3" />
+                        </audio>
+                        <audio class="rain" title="Make it rain">
+                        	<source src="https://mikyr2038.cz/sounds/Make%20it%20rain.mp3" />
+                        </audio>
+                        <audio class="money" title="Make some money">
+                        	<source src="https://mikyr2038.cz/sounds/Make%20some%20money.mp3" />
+                        </audio>
+                        <audio class="ou" title=""Ou jeee, man!>
+                        	<source src="https://mikyr2038.cz/sounds/Ou%20jeee%2C%20man%21.mp3" />
+                        </audio>
+                        <audio class="zensky-krik" title="Ženský křik">
+                        	<source src="https://mikyr2038.cz/sounds/%C5%BDensk%C3%BD%20k%C5%99ik.wav" />
+                        </audio>
 			<ul id="doc" class="list floated soundboard clearfix">
 				<!-- Audio soundboard will go here -->
 			</ul>
@@ -94,32 +138,32 @@
 	</div> <!-- /container -->
 	
 	<div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span4">
-          <h2>Found an Issue?</h2>
-           <p>Found an issue with Bootstrap HTML5 Soundboard? Please submit an issue to the <a href="https://github.com/sk33lz/bootstrap-html5-soundboard/issues" title="GitHub Issue Queue">GitHub Issue Queue</a>.</p>
-          <p><a class="btn" href="https://github.com/sk33lz/bootstrap-html5-soundboard/issues" title="Submit an Issue">Submit an Issue &raquo;</a></p>
-        </div>
-        <div class="span4">
-          <h2>Pull Requests Welcome!</h2>
-           <p>Got a cool feature you would like to see in this script and can write the code? Please <a href="https://github.com/sk33lz/bootstrap-html5-soundboard/pulls" title="Submit a Pull Request on GitHub">Submit a Pull Request on GitHub</a>!</p>
-          <p><a class="btn" href="https://github.com/sk33lz/bootstrap-html5-soundboard/pulls" title="Submit a Pull Request">Submit a Pull Request &raquo;</a></p>
-       </div>
-        <div class="span4">
-          <h2>Developer Wiki</h2>
-          <p>We will be putting together some sweet documentation on how to use this script and build on to it on the <a href="https://github.com/sk33lz/bootstrap-html5-soundboard/wiki" title="GitHub Wiki">GitHub Wiki</a>.</p>
-          <p><a class="btn" href="https://github.com/sk33lz/bootstrap-html5-soundboard/wiki">View the Wiki &raquo;</a></p>
-        </div>
-      </div>
-      <hr>
-	</div> <!-- /container -->
+    <!--   <\!-- Example row of columns -\-> -->
+    <!--   <div class="row"> -->
+    <!--     <div class="span4"> -->
+    <!--       <h2>Found an Issue?</h2> -->
+    <!--        <p>Found an issue with Bootstrap HTML5 Soundboard? Please submit an issue to the <a href="https://github.com/sk33lz/bootstrap-html5-soundboard/issues" title="GitHub Issue Queue">GitHub Issue Queue</a>.</p> -->
+    <!--       <p><a class="btn" href="https://github.com/sk33lz/bootstrap-html5-soundboard/issues" title="Submit an Issue">Submit an Issue &raquo;</a></p> -->
+    <!--     </div> -->
+    <!--     <div class="span4"> -->
+    <!--       <h2>Pull Requests Welcome!</h2> -->
+    <!--        <p>Got a cool feature you would like to see in this script and can write the code? Please <a href="https://github.com/sk33lz/bootstrap-html5-soundboard/pulls" title="Submit a Pull Request on GitHub">Submit a Pull Request on GitHub</a>!</p> -->
+    <!--       <p><a class="btn" href="https://github.com/sk33lz/bootstrap-html5-soundboard/pulls" title="Submit a Pull Request">Submit a Pull Request &raquo;</a></p> -->
+    <!--    </div> -->
+    <!--     <div class="span4"> -->
+    <!--       <h2>Developer Wiki</h2> -->
+    <!--       <p>We will be putting together some sweet documentation on how to use this script and build on to it on the <a href="https://github.com/sk33lz/bootstrap-html5-soundboard/wiki" title="GitHub Wiki">GitHub Wiki</a>.</p> -->
+    <!--       <p><a class="btn" href="https://github.com/sk33lz/bootstrap-html5-soundboard/wiki">View the Wiki &raquo;</a></p> -->
+    <!--     </div> -->
+    <!--   </div> -->
+    <!--   <hr> -->
+    <!--     </div> <\!-- /container -\-> -->
 	
-	<div class="container">
-      <footer>
-        <small>All sounds clips and images are copyright their original owners. Audio clips and images included on this site are for educational and research purposes only.</small>
-      </footer>
-    </div> <!-- /container -->
+    <!--     <div class="container"> -->
+    <!--   <footer> -->
+    <!--     <small>All sounds clips and images are copyright their original owners. Audio clips and images included on this site are for educational and research purposes only.</small> -->
+    <!--   </footer> -->
+    <!-- </div> <\!-- /container -\-> -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.8.2.min.js"><\/script>')</script>
